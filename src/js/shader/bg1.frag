@@ -6,7 +6,6 @@ uniform float time;
 uniform vec2 mouse;
 uniform vec2 resolution;
 varying vec2 vUv;
-uniform sampler2D texture;
 
 const float PI  = 3.141592653589793;
 const float PI2 = PI * 2.;

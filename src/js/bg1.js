@@ -2,7 +2,6 @@ import Utile from './utile.js';
 
 const vert = require('./shader/bg1.vert');
 const frag = require('./shader/bg1.frag');
-const texture = require('../assets/images/texture1.png');
 const THREE = require('three-js')([]);
 
 
@@ -96,10 +95,6 @@ export default class Bg1 {
         time: {
           type: 'f',
           value: uTime
-        },
-        texture: {
-          type: 't',
-          value: new THREE.TextureLoader().load(texture)
         },
         resolution:{
           type:'v2',
